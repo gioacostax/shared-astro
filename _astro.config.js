@@ -3,9 +3,10 @@
  * more info in https://astro.build/config
  */
 
+import { defineConfig } from 'astro/config';
+
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@tailwindcss/vite';
-import { defineConfig } from 'astro/config';
 
 /**
  * Astro config dependencies

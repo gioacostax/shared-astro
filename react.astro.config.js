@@ -3,8 +3,9 @@
  * more info in https://astro.build/config
  */
 
-import react from '@astrojs/react';
 import { defineConfig } from 'astro/config';
+
+import react from '@astrojs/react';
 import svgr from 'vite-plugin-svgr';
 
 /**
